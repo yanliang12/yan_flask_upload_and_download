@@ -5,7 +5,7 @@ https://buildcoding.com/upload-and-download-file-using-flask-in-python/
 import os
 from werkzeug.utils import secure_filename
 from flask import Flask,flash,request,redirect,send_file,render_template
-UPLOAD_FOLDER = 'uploads/'
+UPLOAD_FOLDER = '/'
 #app = Flask(__name__)
 app = Flask(__name__, template_folder='templates')
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
